@@ -1,2 +1,6 @@
 # web-app
-Desarrollo web y movil
+Desarrollo movil 
+
+Angular 7
+Inic 4
+Node js
