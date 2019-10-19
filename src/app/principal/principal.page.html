@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Persona</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-item>
+          <ion-input  disabled="true"  [(ngModel)]="nombre" name="nombre">
+            <ion-icon class="icon-secundario" name="person"></ion-icon>
+          </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input disabled="true" [(ngModel)]=" direccion" name = "direccion">
+            <ion-icon class="icon-secundario" name="map"></ion-icon>
+          </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input disabled="true"  [(ngModel)]=" telefono" name = "telefono">
+            <ion-icon class="icon-secundario" name="call"></ion-icon>
+          </ion-input>
+        </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>
